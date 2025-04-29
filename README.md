@@ -1,6 +1,6 @@
-<p>steps<p>
+<p>steps</p>
   <br>
-terraform.tf       : to install aws provider<br>
+<p>terraform.tf</p>       : to install aws provider<br>
 providers.tf       : to change / modify provider<br>
                         here we changed region.<br>
                         <br>
