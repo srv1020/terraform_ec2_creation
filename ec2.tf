@@ -52,6 +52,7 @@ resource "aws_instance" "my_instance" {
     security_groups = [aws_security_group.my_security.name]
     ami = var.ec2_ami_id #ubuntu type and on same region
     instance_type = var.aws_instance_type
+    user_data = file("")
 
     root_block_device{
         volume_size = var.root_storage_size
